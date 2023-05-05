@@ -5,7 +5,7 @@ Adaptor to make your Iambic Paddle a USB keyboard input
 # Original Idea
 Full credit for the design on this goes to these guys:  https://trmm.net/Morse_Code_keyboard/
 
-This is forked from TemporarilyOffline/usb-paddle because I plan on drastically changing the setup to include external pots and allowing the teensy to play as an input audio device to the computer.
+This is forked from TemporarilyOffline/usb-paddle because I plan on drastically changing the setup to include external pots and allowing the teensy to play as an input audio device to the computer. Eventually I will also make a fork for the Raspberry Pi Pico in order to make this project more accessible.
 
 # Improvements over usb-paddle
 
