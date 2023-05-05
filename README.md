@@ -1,6 +1,5 @@
-# usb-paddle
-Adaptor to make your Iambic Paddle a USB keyboard input
-
+# Intro
+Interpreter to make your Iambic Paddle a USB keyboard input. This means that you can send your computer morse code and it will type the respective characters on screen. This is a great project for those trying to increase their code speed and getting some practice in.
 
 # Original Idea
 Full credit for the design on this goes to these guys:  https://trmm.net/Morse_Code_keyboard/
@@ -14,3 +13,7 @@ Improvements include two external pots for code speed and pitch. There will also
 # Build
 
 Right now everything is spread out on my workbench. The plan is to fit this all in an Altoids Arctic 1.2oz tin. 
+
+Image Courtesy of Mars/Altoids:
+
+<img src="https://lhcdn-src.mars.com/adaptivemedia/rendition/id_98b371744f0665258bde07017b3b36fdeab55989/name_98b371744f0665258bde07017b3b36fdeab55989.jpg" width="400" />
