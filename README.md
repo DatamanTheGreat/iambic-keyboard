@@ -3,35 +3,14 @@ Adaptor to make your Iambic Paddle a USB keyboard input
 
 
 # Original Idea
-Full credit for the design on this goes to these guys:  https://www.nycresistor.com/2012/02/20/morse-code-keyboard/
+Full credit for the design on this goes to these guys:  https://trmm.net/Morse_Code_keyboard/
 
-But everytime I get asked about it, I have to go hunt this page down, so I'm consilidating my notes here.  
+This is forked from TemporarilyOffline/usb-paddle because I plan on drastically changing the setup to include external pots and allowing the teensy to play as an input audio device to the computer.
 
-You can see my comment on the bottom of the page where I detail the very minor touch ups I've done here.
+# Improvements over usb-paddle
 
-I hope this helps somebody in the future that wants to build this little guy.  Its a fantastic toy and really makes practice easy.
+Improvements include two external pots for code speed and pitch. There will also be a mute switch and a lock switch. Mute will mute the speaker but will still allow the tone to play through the PC audio input. This means that you can listen to your code through the PC using headphones while you're dit-ting away. The lock switch will lock changes made with the pots in the event something brushes up against them or if you want to take this module portable. I plan on trying it with my iPad and iPhone and I'll update this page with testing.
 
-# The build
+# Build
 
-I ordered a Teensy 2.0 off of amazon fairly easy enough.  The code loaded on much like any other Arduino software would load.  Its a quite elegant design that uses some pins for input, some pins for speaker output and re-uses the USB port to connect to the computer. I took a few extra steps and put a 1/8in stereo jack on it and dropped the works into a case for the earbuds that came with a samsung phone of mine.
-
-Edit `iambic.c` to set key speed
-
-`make` and then open the Teensy Loader and plugin your Teensy and download the `.hex` file.
-
-After that, plug into your USB port, plug in your Paddle and get to keying!
-
-# Wiring
-
-Paddle gets connected to B4, B5 and GND pins. B4 is dit, B5 is dah - swap if that's your thing.
-
-Speaker gets plugged into VCC and pin OC0A which was labled B7 on the board. It was labeled as OC0A in the Teensy docs.
-
-# The video
-
-Video link here: 
-
-#1 https://youtu.be/SAqfvn5xvzI - Overview
-#2 https://youtu.be/dA1FuITq8fY - How to modify, build, upload code
-
-
+Right now everything is spread out on my workbench. The plan is to fit this all in an Altoids Arctic 1.2oz tin. 
